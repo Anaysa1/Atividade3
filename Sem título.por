@@ -1,17 +1,20 @@
 programa {
   funcao inicio() {
-
-    inteiro n1, n2, sub
-    escreva ("Digite o primeiro numero: ")
-    leia (n1)
-    escreva ("Digite o segundo numero: ")
-    leia (n2)
-    sub = n1-n2
-    escreva("O resultado da subtração é de: " , sub)
-
-  }
-}
-
+  
+    real n1, n2, rs
+    escreva("Digite dois números para realizar os calculos ","\n")
+    escreva("Digite o primeiro número:")
+    leia(n1)
+    escreva("Digite o segundo número:")
+    leia(n2)
+    rs = n1 / n2
+    escreva("O resultado da sua divisão é: ", rs, "\n")
+    rs = n1 + n2
+    escreva("O resultado da soma é: " + rs)
+    rs = n1-n2
+    escreva("O resultado da subtração é de: " , rs)
     
+
   }
 }
+
