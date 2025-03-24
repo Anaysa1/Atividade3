@@ -11,6 +11,8 @@ programa {
     escreva("O resultado da sua divisão é: ", rs, "\n")
     rs = n1 + n2
     escreva("O resultado da soma é: " + rs)
+    rs = n1-n2
+    escreva("O resultado da subtração é de: " , rs)
     
 
   }
